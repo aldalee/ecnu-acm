@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ecnuACM",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "1132::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1132-Debug-bacafd4f5a6864c9d375.json",
+					"name" : "1132",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2977::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2977-Debug-b44b93ee1d6352a8e6f2.json",
+					"name" : "2977",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3073::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3073-Debug-83beff47b63a5c000203.json",
+					"name" : "3073",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3190::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3190-Debug-bee8afb80e5783204e0f.json",
+					"name" : "3190",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3486::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3486-Debug-f79e7a832e06f1528550.json",
+					"name" : "3486",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3529::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3529-Debug-1a6f3e4e8db05e9fc8fe.json",
+					"name" : "3529",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ecnuACM::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ecnuACM-Debug-3db8012449f812877aa6.json",
+					"name" : "ecnuACM",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/WorkSpace/Algorithm/algorithm/ecnu-acm/cmake-build-debug",
+		"source" : "D:/WorkSpace/Algorithm/algorithm/ecnu-acm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

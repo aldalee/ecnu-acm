@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.19)
+project(ecnuACM)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(ecnuACM main.cpp)
+add_executable(3073 Sortings/3073-RoadSorting.cpp)
+add_executable(3190 PositionalNotation/3190-BalancedTrinary.cpp)
+add_executable(1132 Others/1132-MaxMaxSum.cpp)
+add_executable(3529 STL/3529-Mr.VanGogh.cpp)
+add_executable(2977 Sortings/2977-GradeOrder.cpp)
+add_executable(3486 string/3486-LargestSubstring.cpp)
