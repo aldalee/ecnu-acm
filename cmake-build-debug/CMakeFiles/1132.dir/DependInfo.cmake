@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/WorkSpace/Algorithm/algorithm/ecnu-acm/Others/1132-MaxMaxSum.cpp" "CMakeFiles/1132.dir/Others/1132-MaxMaxSum.cpp.obj" "gcc" "CMakeFiles/1132.dir/Others/1132-MaxMaxSum.cpp.obj.d"
+  "D:/space/algorithm/ecnu-acm/Others/1132-MaxMaxSum.cpp" "CMakeFiles/1132.dir/Others/1132-MaxMaxSum.cpp.obj" "gcc" "CMakeFiles/1132.dir/Others/1132-MaxMaxSum.cpp.obj.d"
   )
 
 # Targets to which this target links.

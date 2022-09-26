@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/WorkSpace/Algorithm/algorithm/ecnu-acm/Sortings/3073-RoadSorting.cpp" "CMakeFiles/3073.dir/Sortings/3073-RoadSorting.cpp.obj" "gcc" "CMakeFiles/3073.dir/Sortings/3073-RoadSorting.cpp.obj.d"
+  "D:/space/algorithm/ecnu-acm/Sortings/3073-RoadSorting.cpp" "CMakeFiles/3073.dir/Sortings/3073-RoadSorting.cpp.obj" "gcc" "CMakeFiles/3073.dir/Sortings/3073-RoadSorting.cpp.obj.d"
   )
 
 # Targets to which this target links.

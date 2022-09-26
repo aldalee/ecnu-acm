@@ -53,10 +53,10 @@ RM = "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\WorkSpace\Algorithm\algorithm\ecnu-acm
+CMAKE_SOURCE_DIR = D:\space\algorithm\ecnu-acm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug
+CMAKE_BINARY_DIR = D:\space\algorithm\ecnu-acm\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -69,6 +69,8 @@ all: CMakeFiles/1132.dir/all
 all: CMakeFiles/3529.dir/all
 all: CMakeFiles/2977.dir/all
 all: CMakeFiles/3486.dir/all
+all: CMakeFiles/Code01_FrameArrangement.dir/all
+all: CMakeFiles/Code02_IntegerSort.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -83,6 +85,8 @@ clean: CMakeFiles/1132.dir/clean
 clean: CMakeFiles/3529.dir/clean
 clean: CMakeFiles/2977.dir/clean
 clean: CMakeFiles/3486.dir/clean
+clean: CMakeFiles/Code01_FrameArrangement.dir/clean
+clean: CMakeFiles/Code02_IntegerSort.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -92,14 +96,14 @@ clean: CMakeFiles/3486.dir/clean
 CMakeFiles/ecnuACM.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ecnuACM.dir\build.make CMakeFiles/ecnuACM.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ecnuACM.dir\build.make CMakeFiles/ecnuACM.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target ecnuACM"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target ecnuACM"
 .PHONY : CMakeFiles/ecnuACM.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ecnuACM.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ecnuACM.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/ecnuACM.dir/rule
 
 # Convenience name for target.
@@ -118,14 +122,14 @@ CMakeFiles/ecnuACM.dir/clean:
 CMakeFiles/3073.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3073.dir\build.make CMakeFiles/3073.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3073.dir\build.make CMakeFiles/3073.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target 3073"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target 3073"
 .PHONY : CMakeFiles/3073.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/3073.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/3073.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/3073.dir/rule
 
 # Convenience name for target.
@@ -144,14 +148,14 @@ CMakeFiles/3073.dir/clean:
 CMakeFiles/3190.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3190.dir\build.make CMakeFiles/3190.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3190.dir\build.make CMakeFiles/3190.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target 3190"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target 3190"
 .PHONY : CMakeFiles/3190.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/3190.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/3190.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/3190.dir/rule
 
 # Convenience name for target.
@@ -170,14 +174,14 @@ CMakeFiles/3190.dir/clean:
 CMakeFiles/1132.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1132.dir\build.make CMakeFiles/1132.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1132.dir\build.make CMakeFiles/1132.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target 1132"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target 1132"
 .PHONY : CMakeFiles/1132.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1132.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/1132.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/1132.dir/rule
 
 # Convenience name for target.
@@ -196,14 +200,14 @@ CMakeFiles/1132.dir/clean:
 CMakeFiles/3529.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3529.dir\build.make CMakeFiles/3529.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3529.dir\build.make CMakeFiles/3529.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target 3529"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target 3529"
 .PHONY : CMakeFiles/3529.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/3529.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/3529.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/3529.dir/rule
 
 # Convenience name for target.
@@ -222,14 +226,14 @@ CMakeFiles/3529.dir/clean:
 CMakeFiles/2977.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2977.dir\build.make CMakeFiles/2977.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2977.dir\build.make CMakeFiles/2977.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target 2977"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target 2977"
 .PHONY : CMakeFiles/2977.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2977.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/2977.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/2977.dir/rule
 
 # Convenience name for target.
@@ -248,14 +252,14 @@ CMakeFiles/2977.dir/clean:
 CMakeFiles/3486.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3486.dir\build.make CMakeFiles/3486.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3486.dir\build.make CMakeFiles/3486.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target 3486"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target 3486"
 .PHONY : CMakeFiles/3486.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/3486.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/3486.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/3486.dir/rule
 
 # Convenience name for target.
@@ -266,6 +270,58 @@ CMakeFiles/3486.dir/rule: cmake_check_build_system
 CMakeFiles/3486.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3486.dir\build.make CMakeFiles/3486.dir/clean
 .PHONY : CMakeFiles/3486.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Code01_FrameArrangement.dir
+
+# All Build rule for target.
+CMakeFiles/Code01_FrameArrangement.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code01_FrameArrangement.dir\build.make CMakeFiles/Code01_FrameArrangement.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code01_FrameArrangement.dir\build.make CMakeFiles/Code01_FrameArrangement.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target Code01_FrameArrangement"
+.PHONY : CMakeFiles/Code01_FrameArrangement.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Code01_FrameArrangement.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Code01_FrameArrangement.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Code01_FrameArrangement.dir/rule
+
+# Convenience name for target.
+Code01_FrameArrangement: CMakeFiles/Code01_FrameArrangement.dir/rule
+.PHONY : Code01_FrameArrangement
+
+# clean rule for target.
+CMakeFiles/Code01_FrameArrangement.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code01_FrameArrangement.dir\build.make CMakeFiles/Code01_FrameArrangement.dir/clean
+.PHONY : CMakeFiles/Code01_FrameArrangement.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Code02_IntegerSort.dir
+
+# All Build rule for target.
+CMakeFiles/Code02_IntegerSort.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code02_IntegerSort.dir\build.make CMakeFiles/Code02_IntegerSort.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code02_IntegerSort.dir\build.make CMakeFiles/Code02_IntegerSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target Code02_IntegerSort"
+.PHONY : CMakeFiles/Code02_IntegerSort.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Code02_IntegerSort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Code02_IntegerSort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Code02_IntegerSort.dir/rule
+
+# Convenience name for target.
+Code02_IntegerSort: CMakeFiles/Code02_IntegerSort.dir/rule
+.PHONY : Code02_IntegerSort
+
+# clean rule for target.
+CMakeFiles/Code02_IntegerSort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code02_IntegerSort.dir\build.make CMakeFiles/Code02_IntegerSort.dir/clean
+.PHONY : CMakeFiles/Code02_IntegerSort.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/WorkSpace/Algorithm/algorithm/ecnu-acm/Sortings/2977-GradeOrder.cpp" "CMakeFiles/2977.dir/Sortings/2977-GradeOrder.cpp.obj" "gcc" "CMakeFiles/2977.dir/Sortings/2977-GradeOrder.cpp.obj.d"
+  "D:/space/algorithm/ecnu-acm/Sortings/2977-GradeOrder.cpp" "CMakeFiles/2977.dir/Sortings/2977-GradeOrder.cpp.obj" "gcc" "CMakeFiles/2977.dir/Sortings/2977-GradeOrder.cpp.obj.d"
   )
 
 # Targets to which this target links.

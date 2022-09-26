@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\WorkSpace\Algorithm\algorithm\ecnu-acm
+CMAKE_SOURCE_DIR = D:\space\algorithm\ecnu-acm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug
+CMAKE_BINARY_DIR = D:\space\algorithm\ecnu-acm\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles D:\space\algorithm\ecnu-acm\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpace\Algorithm\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -205,6 +205,32 @@ ecnuACM/fast:
 3486/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3486.dir\build.make CMakeFiles/3486.dir/build
 .PHONY : 3486/fast
+
+#=============================================================================
+# Target rules for targets named Code01_FrameArrangement
+
+# Build rule for target.
+Code01_FrameArrangement: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Code01_FrameArrangement
+.PHONY : Code01_FrameArrangement
+
+# fast build rule for target.
+Code01_FrameArrangement/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code01_FrameArrangement.dir\build.make CMakeFiles/Code01_FrameArrangement.dir/build
+.PHONY : Code01_FrameArrangement/fast
+
+#=============================================================================
+# Target rules for targets named Code02_IntegerSort
+
+# Build rule for target.
+Code02_IntegerSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Code02_IntegerSort
+.PHONY : Code02_IntegerSort
+
+# fast build rule for target.
+Code02_IntegerSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code02_IntegerSort.dir\build.make CMakeFiles/Code02_IntegerSort.dir/build
+.PHONY : Code02_IntegerSort/fast
 
 Others/1132-MaxMaxSum.obj: Others/1132-MaxMaxSum.cpp.obj
 .PHONY : Others/1132-MaxMaxSum.obj
@@ -326,6 +352,54 @@ Sortings/3073-RoadSorting.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3073.dir\build.make CMakeFiles/3073.dir/Sortings/3073-RoadSorting.cpp.s
 .PHONY : Sortings/3073-RoadSorting.cpp.s
 
+algorithm-class/Code01_FrameArrangement.obj: algorithm-class/Code01_FrameArrangement.cpp.obj
+.PHONY : algorithm-class/Code01_FrameArrangement.obj
+
+# target to build an object file
+algorithm-class/Code01_FrameArrangement.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code01_FrameArrangement.dir\build.make CMakeFiles/Code01_FrameArrangement.dir/algorithm-class/Code01_FrameArrangement.cpp.obj
+.PHONY : algorithm-class/Code01_FrameArrangement.cpp.obj
+
+algorithm-class/Code01_FrameArrangement.i: algorithm-class/Code01_FrameArrangement.cpp.i
+.PHONY : algorithm-class/Code01_FrameArrangement.i
+
+# target to preprocess a source file
+algorithm-class/Code01_FrameArrangement.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code01_FrameArrangement.dir\build.make CMakeFiles/Code01_FrameArrangement.dir/algorithm-class/Code01_FrameArrangement.cpp.i
+.PHONY : algorithm-class/Code01_FrameArrangement.cpp.i
+
+algorithm-class/Code01_FrameArrangement.s: algorithm-class/Code01_FrameArrangement.cpp.s
+.PHONY : algorithm-class/Code01_FrameArrangement.s
+
+# target to generate assembly for a file
+algorithm-class/Code01_FrameArrangement.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code01_FrameArrangement.dir\build.make CMakeFiles/Code01_FrameArrangement.dir/algorithm-class/Code01_FrameArrangement.cpp.s
+.PHONY : algorithm-class/Code01_FrameArrangement.cpp.s
+
+algorithm-class/Code02_IntegerSort.obj: algorithm-class/Code02_IntegerSort.cpp.obj
+.PHONY : algorithm-class/Code02_IntegerSort.obj
+
+# target to build an object file
+algorithm-class/Code02_IntegerSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code02_IntegerSort.dir\build.make CMakeFiles/Code02_IntegerSort.dir/algorithm-class/Code02_IntegerSort.cpp.obj
+.PHONY : algorithm-class/Code02_IntegerSort.cpp.obj
+
+algorithm-class/Code02_IntegerSort.i: algorithm-class/Code02_IntegerSort.cpp.i
+.PHONY : algorithm-class/Code02_IntegerSort.i
+
+# target to preprocess a source file
+algorithm-class/Code02_IntegerSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code02_IntegerSort.dir\build.make CMakeFiles/Code02_IntegerSort.dir/algorithm-class/Code02_IntegerSort.cpp.i
+.PHONY : algorithm-class/Code02_IntegerSort.cpp.i
+
+algorithm-class/Code02_IntegerSort.s: algorithm-class/Code02_IntegerSort.cpp.s
+.PHONY : algorithm-class/Code02_IntegerSort.s
+
+# target to generate assembly for a file
+algorithm-class/Code02_IntegerSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code02_IntegerSort.dir\build.make CMakeFiles/Code02_IntegerSort.dir/algorithm-class/Code02_IntegerSort.cpp.s
+.PHONY : algorithm-class/Code02_IntegerSort.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -388,6 +462,8 @@ help:
 	@echo ... 3190
 	@echo ... 3486
 	@echo ... 3529
+	@echo ... Code01_FrameArrangement
+	@echo ... Code02_IntegerSort
 	@echo ... ecnuACM
 	@echo ... Others/1132-MaxMaxSum.obj
 	@echo ... Others/1132-MaxMaxSum.i
@@ -404,6 +480,12 @@ help:
 	@echo ... Sortings/3073-RoadSorting.obj
 	@echo ... Sortings/3073-RoadSorting.i
 	@echo ... Sortings/3073-RoadSorting.s
+	@echo ... algorithm-class/Code01_FrameArrangement.obj
+	@echo ... algorithm-class/Code01_FrameArrangement.i
+	@echo ... algorithm-class/Code01_FrameArrangement.s
+	@echo ... algorithm-class/Code02_IntegerSort.obj
+	@echo ... algorithm-class/Code02_IntegerSort.i
+	@echo ... algorithm-class/Code02_IntegerSort.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

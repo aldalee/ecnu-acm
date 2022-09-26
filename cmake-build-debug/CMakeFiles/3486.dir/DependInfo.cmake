@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/WorkSpace/Algorithm/algorithm/ecnu-acm/string/3486-LargestSubstring.cpp" "CMakeFiles/3486.dir/string/3486-LargestSubstring.cpp.obj" "gcc" "CMakeFiles/3486.dir/string/3486-LargestSubstring.cpp.obj.d"
+  "D:/space/algorithm/ecnu-acm/string/3486-LargestSubstring.cpp" "CMakeFiles/3486.dir/string/3486-LargestSubstring.cpp.obj" "gcc" "CMakeFiles/3486.dir/string/3486-LargestSubstring.cpp.obj.d"
   )
 
 # Targets to which this target links.
