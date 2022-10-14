@@ -12,7 +12,7 @@ int binarySearchFirstMaxNumber(const int x[], int n, int ans) {
     int r = n - 1;
     int index = -1;
     while (l <= r) {
-        int mid = (r - l) / 2 + l;
+        int mid = ((r - l) >> 1) + l;
         if (x[mid] > ans) {
             index = mid;
             r = mid - 1;
