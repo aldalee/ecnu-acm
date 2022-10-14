@@ -232,6 +232,45 @@ Code02_IntegerSort/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code02_IntegerSort.dir\build.make CMakeFiles/Code02_IntegerSort.dir/build
 .PHONY : Code02_IntegerSort/fast
 
+#=============================================================================
+# Target rules for targets named Code05_DifferentialCounting
+
+# Build rule for target.
+Code05_DifferentialCounting: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Code05_DifferentialCounting
+.PHONY : Code05_DifferentialCounting
+
+# fast build rule for target.
+Code05_DifferentialCounting/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code05_DifferentialCounting.dir\build.make CMakeFiles/Code05_DifferentialCounting.dir/build
+.PHONY : Code05_DifferentialCounting/fast
+
+#=============================================================================
+# Target rules for targets named Code04_CombinedFruit
+
+# Build rule for target.
+Code04_CombinedFruit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Code04_CombinedFruit
+.PHONY : Code04_CombinedFruit
+
+# fast build rule for target.
+Code04_CombinedFruit/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code04_CombinedFruit.dir\build.make CMakeFiles/Code04_CombinedFruit.dir/build
+.PHONY : Code04_CombinedFruit/fast
+
+#=============================================================================
+# Target rules for targets named Code03_SelectSort
+
+# Build rule for target.
+Code03_SelectSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Code03_SelectSort
+.PHONY : Code03_SelectSort
+
+# fast build rule for target.
+Code03_SelectSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code03_SelectSort.dir\build.make CMakeFiles/Code03_SelectSort.dir/build
+.PHONY : Code03_SelectSort/fast
+
 Others/1132-MaxMaxSum.obj: Others/1132-MaxMaxSum.cpp.obj
 .PHONY : Others/1132-MaxMaxSum.obj
 
@@ -400,6 +439,78 @@ algorithm-class/Code02_IntegerSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code02_IntegerSort.dir\build.make CMakeFiles/Code02_IntegerSort.dir/algorithm-class/Code02_IntegerSort.cpp.s
 .PHONY : algorithm-class/Code02_IntegerSort.cpp.s
 
+algorithm-class/Code03_SelectSort.obj: algorithm-class/Code03_SelectSort.cpp.obj
+.PHONY : algorithm-class/Code03_SelectSort.obj
+
+# target to build an object file
+algorithm-class/Code03_SelectSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code03_SelectSort.dir\build.make CMakeFiles/Code03_SelectSort.dir/algorithm-class/Code03_SelectSort.cpp.obj
+.PHONY : algorithm-class/Code03_SelectSort.cpp.obj
+
+algorithm-class/Code03_SelectSort.i: algorithm-class/Code03_SelectSort.cpp.i
+.PHONY : algorithm-class/Code03_SelectSort.i
+
+# target to preprocess a source file
+algorithm-class/Code03_SelectSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code03_SelectSort.dir\build.make CMakeFiles/Code03_SelectSort.dir/algorithm-class/Code03_SelectSort.cpp.i
+.PHONY : algorithm-class/Code03_SelectSort.cpp.i
+
+algorithm-class/Code03_SelectSort.s: algorithm-class/Code03_SelectSort.cpp.s
+.PHONY : algorithm-class/Code03_SelectSort.s
+
+# target to generate assembly for a file
+algorithm-class/Code03_SelectSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code03_SelectSort.dir\build.make CMakeFiles/Code03_SelectSort.dir/algorithm-class/Code03_SelectSort.cpp.s
+.PHONY : algorithm-class/Code03_SelectSort.cpp.s
+
+algorithm-class/Code04_CombinedFruit.obj: algorithm-class/Code04_CombinedFruit.cpp.obj
+.PHONY : algorithm-class/Code04_CombinedFruit.obj
+
+# target to build an object file
+algorithm-class/Code04_CombinedFruit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code04_CombinedFruit.dir\build.make CMakeFiles/Code04_CombinedFruit.dir/algorithm-class/Code04_CombinedFruit.cpp.obj
+.PHONY : algorithm-class/Code04_CombinedFruit.cpp.obj
+
+algorithm-class/Code04_CombinedFruit.i: algorithm-class/Code04_CombinedFruit.cpp.i
+.PHONY : algorithm-class/Code04_CombinedFruit.i
+
+# target to preprocess a source file
+algorithm-class/Code04_CombinedFruit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code04_CombinedFruit.dir\build.make CMakeFiles/Code04_CombinedFruit.dir/algorithm-class/Code04_CombinedFruit.cpp.i
+.PHONY : algorithm-class/Code04_CombinedFruit.cpp.i
+
+algorithm-class/Code04_CombinedFruit.s: algorithm-class/Code04_CombinedFruit.cpp.s
+.PHONY : algorithm-class/Code04_CombinedFruit.s
+
+# target to generate assembly for a file
+algorithm-class/Code04_CombinedFruit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code04_CombinedFruit.dir\build.make CMakeFiles/Code04_CombinedFruit.dir/algorithm-class/Code04_CombinedFruit.cpp.s
+.PHONY : algorithm-class/Code04_CombinedFruit.cpp.s
+
+algorithm-class/Code05_DifferentialCounting.obj: algorithm-class/Code05_DifferentialCounting.cpp.obj
+.PHONY : algorithm-class/Code05_DifferentialCounting.obj
+
+# target to build an object file
+algorithm-class/Code05_DifferentialCounting.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code05_DifferentialCounting.dir\build.make CMakeFiles/Code05_DifferentialCounting.dir/algorithm-class/Code05_DifferentialCounting.cpp.obj
+.PHONY : algorithm-class/Code05_DifferentialCounting.cpp.obj
+
+algorithm-class/Code05_DifferentialCounting.i: algorithm-class/Code05_DifferentialCounting.cpp.i
+.PHONY : algorithm-class/Code05_DifferentialCounting.i
+
+# target to preprocess a source file
+algorithm-class/Code05_DifferentialCounting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code05_DifferentialCounting.dir\build.make CMakeFiles/Code05_DifferentialCounting.dir/algorithm-class/Code05_DifferentialCounting.cpp.i
+.PHONY : algorithm-class/Code05_DifferentialCounting.cpp.i
+
+algorithm-class/Code05_DifferentialCounting.s: algorithm-class/Code05_DifferentialCounting.cpp.s
+.PHONY : algorithm-class/Code05_DifferentialCounting.s
+
+# target to generate assembly for a file
+algorithm-class/Code05_DifferentialCounting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code05_DifferentialCounting.dir\build.make CMakeFiles/Code05_DifferentialCounting.dir/algorithm-class/Code05_DifferentialCounting.cpp.s
+.PHONY : algorithm-class/Code05_DifferentialCounting.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -464,6 +575,9 @@ help:
 	@echo ... 3529
 	@echo ... Code01_FrameArrangement
 	@echo ... Code02_IntegerSort
+	@echo ... Code03_SelectSort
+	@echo ... Code04_CombinedFruit
+	@echo ... Code05_DifferentialCounting
 	@echo ... ecnuACM
 	@echo ... Others/1132-MaxMaxSum.obj
 	@echo ... Others/1132-MaxMaxSum.i
@@ -486,6 +600,15 @@ help:
 	@echo ... algorithm-class/Code02_IntegerSort.obj
 	@echo ... algorithm-class/Code02_IntegerSort.i
 	@echo ... algorithm-class/Code02_IntegerSort.s
+	@echo ... algorithm-class/Code03_SelectSort.obj
+	@echo ... algorithm-class/Code03_SelectSort.i
+	@echo ... algorithm-class/Code03_SelectSort.s
+	@echo ... algorithm-class/Code04_CombinedFruit.obj
+	@echo ... algorithm-class/Code04_CombinedFruit.i
+	@echo ... algorithm-class/Code04_CombinedFruit.s
+	@echo ... algorithm-class/Code05_DifferentialCounting.obj
+	@echo ... algorithm-class/Code05_DifferentialCounting.i
+	@echo ... algorithm-class/Code05_DifferentialCounting.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
