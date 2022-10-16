@@ -1,6 +1,6 @@
 // https://acm.ecnu.edu.cn/contest/563/problem/F/
 // Created by HuanyuLee on 2022/10/14.
-// TLE
+// AC
 #include <iostream>
 #include <algorithm>
 #include <vector>
