@@ -63,4 +63,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Code05_DifferentialCounting.dir/DependInfo.cmake"
   "CMakeFiles/Code04_CombinedFruit.dir/DependInfo.cmake"
   "CMakeFiles/Code03_SelectSort.dir/DependInfo.cmake"
+  "CMakeFiles/Code06_MakeDishes.dir/DependInfo.cmake"
   )

@@ -74,6 +74,7 @@ all: CMakeFiles/Code02_IntegerSort.dir/all
 all: CMakeFiles/Code05_DifferentialCounting.dir/all
 all: CMakeFiles/Code04_CombinedFruit.dir/all
 all: CMakeFiles/Code03_SelectSort.dir/all
+all: CMakeFiles/Code06_MakeDishes.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -93,6 +94,7 @@ clean: CMakeFiles/Code02_IntegerSort.dir/clean
 clean: CMakeFiles/Code05_DifferentialCounting.dir/clean
 clean: CMakeFiles/Code04_CombinedFruit.dir/clean
 clean: CMakeFiles/Code03_SelectSort.dir/clean
+clean: CMakeFiles/Code06_MakeDishes.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -102,7 +104,7 @@ clean: CMakeFiles/Code03_SelectSort.dir/clean
 CMakeFiles/ecnuACM.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ecnuACM.dir\build.make CMakeFiles/ecnuACM.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ecnuACM.dir\build.make CMakeFiles/ecnuACM.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target ecnuACM"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target ecnuACM"
 .PHONY : CMakeFiles/ecnuACM.dir/all
 
 # Build rule for subdir invocation for target.
@@ -406,6 +408,32 @@ Code03_SelectSort: CMakeFiles/Code03_SelectSort.dir/rule
 CMakeFiles/Code03_SelectSort.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code03_SelectSort.dir\build.make CMakeFiles/Code03_SelectSort.dir/clean
 .PHONY : CMakeFiles/Code03_SelectSort.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Code06_MakeDishes.dir
+
+# All Build rule for target.
+CMakeFiles/Code06_MakeDishes.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code06_MakeDishes.dir\build.make CMakeFiles/Code06_MakeDishes.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code06_MakeDishes.dir\build.make CMakeFiles/Code06_MakeDishes.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target Code06_MakeDishes"
+.PHONY : CMakeFiles/Code06_MakeDishes.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Code06_MakeDishes.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Code06_MakeDishes.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\space\algorithm\ecnu-acm\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Code06_MakeDishes.dir/rule
+
+# Convenience name for target.
+Code06_MakeDishes: CMakeFiles/Code06_MakeDishes.dir/rule
+.PHONY : Code06_MakeDishes
+
+# clean rule for target.
+CMakeFiles/Code06_MakeDishes.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code06_MakeDishes.dir\build.make CMakeFiles/Code06_MakeDishes.dir/clean
+.PHONY : CMakeFiles/Code06_MakeDishes.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

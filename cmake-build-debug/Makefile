@@ -271,6 +271,19 @@ Code03_SelectSort/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code03_SelectSort.dir\build.make CMakeFiles/Code03_SelectSort.dir/build
 .PHONY : Code03_SelectSort/fast
 
+#=============================================================================
+# Target rules for targets named Code06_MakeDishes
+
+# Build rule for target.
+Code06_MakeDishes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Code06_MakeDishes
+.PHONY : Code06_MakeDishes
+
+# fast build rule for target.
+Code06_MakeDishes/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code06_MakeDishes.dir\build.make CMakeFiles/Code06_MakeDishes.dir/build
+.PHONY : Code06_MakeDishes/fast
+
 Others/1132-MaxMaxSum.obj: Others/1132-MaxMaxSum.cpp.obj
 .PHONY : Others/1132-MaxMaxSum.obj
 
@@ -511,6 +524,30 @@ algorithm-class/Code05_DifferentialCounting.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code05_DifferentialCounting.dir\build.make CMakeFiles/Code05_DifferentialCounting.dir/algorithm-class/Code05_DifferentialCounting.cpp.s
 .PHONY : algorithm-class/Code05_DifferentialCounting.cpp.s
 
+algorithm-class/Code06_MakeDishes.obj: algorithm-class/Code06_MakeDishes.cpp.obj
+.PHONY : algorithm-class/Code06_MakeDishes.obj
+
+# target to build an object file
+algorithm-class/Code06_MakeDishes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code06_MakeDishes.dir\build.make CMakeFiles/Code06_MakeDishes.dir/algorithm-class/Code06_MakeDishes.cpp.obj
+.PHONY : algorithm-class/Code06_MakeDishes.cpp.obj
+
+algorithm-class/Code06_MakeDishes.i: algorithm-class/Code06_MakeDishes.cpp.i
+.PHONY : algorithm-class/Code06_MakeDishes.i
+
+# target to preprocess a source file
+algorithm-class/Code06_MakeDishes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code06_MakeDishes.dir\build.make CMakeFiles/Code06_MakeDishes.dir/algorithm-class/Code06_MakeDishes.cpp.i
+.PHONY : algorithm-class/Code06_MakeDishes.cpp.i
+
+algorithm-class/Code06_MakeDishes.s: algorithm-class/Code06_MakeDishes.cpp.s
+.PHONY : algorithm-class/Code06_MakeDishes.s
+
+# target to generate assembly for a file
+algorithm-class/Code06_MakeDishes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Code06_MakeDishes.dir\build.make CMakeFiles/Code06_MakeDishes.dir/algorithm-class/Code06_MakeDishes.cpp.s
+.PHONY : algorithm-class/Code06_MakeDishes.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -578,6 +615,7 @@ help:
 	@echo ... Code03_SelectSort
 	@echo ... Code04_CombinedFruit
 	@echo ... Code05_DifferentialCounting
+	@echo ... Code06_MakeDishes
 	@echo ... ecnuACM
 	@echo ... Others/1132-MaxMaxSum.obj
 	@echo ... Others/1132-MaxMaxSum.i
@@ -609,6 +647,9 @@ help:
 	@echo ... algorithm-class/Code05_DifferentialCounting.obj
 	@echo ... algorithm-class/Code05_DifferentialCounting.i
 	@echo ... algorithm-class/Code05_DifferentialCounting.s
+	@echo ... algorithm-class/Code06_MakeDishes.obj
+	@echo ... algorithm-class/Code06_MakeDishes.i
+	@echo ... algorithm-class/Code06_MakeDishes.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
