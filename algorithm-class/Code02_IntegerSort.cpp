@@ -39,7 +39,7 @@ void quickSort(vector<int> &nums, int start, int end) {
 
 
 string largestNumber(vector<int> &nums) {
-    quickSort(nums, 0, nums.size() - 1);
+    quickSort(nums, 0, (int)nums.size() - 1);
     string ans;
     for (int &t: nums) {
         ans += to_string(t);
